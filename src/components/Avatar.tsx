@@ -3,7 +3,7 @@ import { ImgHTMLAttributes } from 'react'
 import styles from './Avatar.module.css'
 
 interface AvatarProps extends ImgHTMLAttributes<HTMLImageElement>{
-  hasBorder: boolean; 
+  hasBorder?: boolean; 
 }
 
 //valores default nas props
